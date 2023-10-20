@@ -1,4 +1,4 @@
-const connectDB = require("./src/db");
+const connectDB = require("./db");
 const UserModel = require("./src/models/userModel");
 
 const createUser = async function(userData) {
